@@ -47,7 +47,7 @@ local embed = DYWebhook.BuildEmbed()
   		},
   		Footer = "Footer Text",
   		Image = DYWebhook.GetPlayerShot.Avatar(4923724712, DYWebhook.Size["420x420"]),
-  		FooterIcon = "https://api.newstargeted.com/roblox/users/v1/avatar.php?userid=4923724712&size=420x420&format=Png&isCircular=false",
+  		FooterIcon = DYWebhook.GetPlayerShot.Avatar(4923724712, DYWebhook.Size["420x420"]),
   		Thumbnail = DYWebhook.GetPlayerShot.Avatar(4923724712, DYWebhook.Size["420x420"])
   	}
   }
