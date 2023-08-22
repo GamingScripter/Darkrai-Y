@@ -162,8 +162,6 @@ Formats a URL with optional link text.
 local formattedLink = DYWebhook.FormatEditor.URL("https://example.com", "Link Text")
 ```
 
-Certainly, here's the section for the `Get Player Shot` functionality:
-
 ## Get Player Shot
 
 The `Darkrai Y Webhook Services` class provides functions to get different types of shots of a player's avatar.
@@ -194,6 +192,25 @@ local userID = 123456789 -- Replace with the user's ID
 local size = DYWebhook.Size["420x420"] -- Replace with the desired size
 local avatarUrl = DYWebhook.GetPlayerShot.Avatar(userID, size)
 ```
+
+### Available Image Sizes
+
+A Markdown table listing the available sizes in the `DYWebhook.Size` table:
+
+| Size      | Value       |
+|-----------|-------------|
+| 48x48     | "48x48"     |
+| 50x50     | "50x50"     |
+| 60x60     | "60x60"     |
+| 75x75     | "75x75"     |
+| 100x100   | "100x100"   |
+| 150x150   | "150x150"   |
+| 180x180   | "180x180"   |
+| 353x352   | "353x352"   |
+| 420x420   | "420x420"   |
+| 720x720   | "720x720"   |
+
+You can use these values to select the appropriate size when using the `GetPlayerShot` function.
 
 Replace `123456789` with the actual user's ID and use the appropriate size from the provided `DYWebhook.Size` table. These functions will return the URL of the respective player shot.
 
