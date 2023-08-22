@@ -1,6 +1,6 @@
 # Darkrai Y Webhook Services Documentation
 
-The `DYWebhookServices` module provides functionality to send messages and embeds to Discord webhooks. It also includes various formatting options and utilities for creating and sending rich embeds.
+The `Darkrai Y Webhook Services` module provides functionality to send messages and embeds to Discord webhooks. It also includes various formatting options and utilities for creating and sending rich embeds.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ The `DYWebhookServices` module provides functionality to send messages and embed
 
 ## Module Overview
 
-The `DYWebhookServices` module is designed to interact with Discord webhooks, allowing you to send messages and rich embeds to specified URLs. It provides various utilities for formatting text, mentions, and more.
+The `Darkrai Y Webhook Services` module is designed to interact with Discord webhooks, allowing you to send messages and rich embeds to specified URLs. It provides various utilities for formatting text, mentions, and more.
 
 ## Usage
 
