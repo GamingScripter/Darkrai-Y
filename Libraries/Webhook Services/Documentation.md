@@ -61,3 +61,111 @@ DYWebhook:Send({
 	embeds = {embed} -- can be more than one
 })
 ```
+
+## Format Editor
+
+The `Darkrai Y Webhook Services` provides functions to format text for embedding.
+
+### Italic
+
+Formats text in *italic* style.
+```lua
+local formattedText = DYWebhook.FormatEditor.Italic("Italic Text")
+```
+
+### Bold
+
+Formats text in **bold** style.
+```lua
+local formattedText = DYWebhook.FormatEditor.Bold("Bold Text")
+```
+
+### Bold Italic
+
+Formats text in ***bold italic*** style.
+```lua
+local formattedText = DYWebhook.FormatEditor.BoldItalic("Bold Italic Text")
+```
+
+### Underline
+
+Formats text in __underline__ style.
+```lua
+local formattedText = DYWebhook.FormatEditor.Underline("Underlined Text")
+```
+
+### Underline Italic
+
+Formats text in __*underline italic*__ style.
+```lua
+local formattedText = DYWebhook.FormatEditor.UnderlineItalic("Underline Italic Text")
+```
+
+### Underline Bold
+
+Formats text in __**underline bold**__ style.
+```lua
+local formattedText = DYWebhook.FormatEditor.UnderlineBold("Underline Bold Text")
+```
+
+### Underline Bold Italic
+
+Formats text in __***underline bold italic***__ style.
+```lua
+local formattedText = DYWebhook.FormatEditor.UnderlineBoldItalic("Underline Bold Italic Text")
+```
+
+### Strikethrough
+
+Formats text in ~~strikethrough~~ style.
+```lua
+local formattedText = DYWebhook.FormatEditor.Strikethrough("Strikethrough Text")
+```
+
+### Codeblock Line
+
+Formats text as a codeblock inline.
+```lua
+local formattedText = DYWebhook.FormatEditor.CodeblockLine("Codeblock Line Text")
+```
+
+### Codeblock
+
+Formats multiline text as a codeblock with optional syntax highlighting.
+```lua
+local code = [[
+function helloWorld()
+    print("Hello, world!")
+end
+]]
+local formattedText = DYWebhook.FormatEditor.Codeblock(code, "lua")
+```
+
+### Block Quote
+
+Formats text as a block quote.
+```lua
+local formattedText = DYWebhook.FormatEditor.BlockQuote("Block Quote Text")
+```
+
+### Multi-line Block Quote
+
+Formats multiline text as a multi-line block quote.
+```lua
+local text = "Line 1\nLine 2\nLine 3"
+local formattedText = DYWebhook.FormatEditor.MultiLineBlockQuote(text)
+```
+
+### Spoiler
+
+Formats text as a spoiler.
+```lua
+local formattedText = DYWebhook.FormatEditor.Spoiler("Spoiler Text")
+```
+
+### URL Link
+
+Formats a URL with optional link text.
+```lua
+local formattedLink = DYWebhook.FormatEditor.URL("https://example.com", "Link Text")
+```
