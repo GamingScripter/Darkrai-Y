@@ -7,12 +7,13 @@ The `Darkrai Y Webhook Services` module provides functionality to send messages 
 - [Module Overview](#module-overview)
 - [Importing](#importing)
 - [Classes and Functions](#classes-and-functions)
+- [Sending](#sending)
   - [Embed](#building-embed)
   - [Format Editor](#format-editor)
   - [Get Player Shot](#get-player-shot)
   - [Mention](#mention)
   - [Queue System](#queue-system)
- - [Sending](#sending)
+- [Sending](#sending)
 
 ## Module Overview
 
