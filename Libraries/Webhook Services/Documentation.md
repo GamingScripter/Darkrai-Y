@@ -11,7 +11,7 @@ The `Darkrai Y Webhook Services` module provides functionality to send messages 
   - [Format Editor](#format-editor)
   - [Get Player Shot](#get-player-shot)
   - [Mention](#mention)
-  - [Queue System](#queue-system)
+  - [Color Converter](#color-converter)
 - [Sending](#sending)
 
 ## Module Overview
@@ -212,7 +212,48 @@ A Markdown table listing the available sizes in the `DYWebhook.Size` table:
 
 You can use these values to select the appropriate size when using the `GetPlayerShot` function.
 
-Replace `123456789` with the actual user's ID and use the appropriate size from the provided `DYWebhook.Size` table. These functions will return the URL of the respective player shot.
+### Replace `123456789` with the actual user's ID and use the appropriate size from the provided `DYWebhook.Size` table. These functions will return the URL of the respective player shot.
+
+## Mention
+
+The `Darkrai Y Webhook Services` class provides functions to mention users, roles, and channels.
+
+### User Mention
+
+Mentions a user by their ID.
+```lua
+local userID = "123456789" -- Replace with the user's ID
+local userMention = DYWebhook.Mention.User(userID)
+```
+
+### Role Mention
+
+Mentions a role by its ID.
+```lua
+local roleID = "987654321" -- Replace with the role's ID
+local roleMention = DYWebhook.Mention.Role(roleID)
+```
+
+### Channel Mention
+
+Mentions a channel by its ID.
+```lua
+local channelID = "456789123" -- Replace with the channel's ID
+local channelMention = DYWebhook.Mention.Channel(channelID)
+```
+
+Replace `"123456789"`, `"987654321"`, and `"456789123"` with the actual user, role, and channel IDs respectively. These functions will return the formatted mention for the respective entity.
+
+## Color Converter
+
+The `Darkrai Y Webhook Services` function converts a Color3 value to a Discord-compatible color code.
+
+```lua
+local color = Color3.fromRGB(255, 0, 0) -- Replace with the desired RGB values
+local colorCode = DYWebhook.ColorConverter(color)
+```
+
+Replace `Color3.fromRGB(255, 0, 0)` with the actual Color3 value you want to convert. The `ColorConverter` function will return a Discord-compatible color code that you can use in your embeds.
 
 ## Sending
 ```lua
