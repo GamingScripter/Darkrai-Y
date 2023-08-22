@@ -7,7 +7,6 @@ The `Darkrai Y Webhook Services` module provides functionality to send messages 
 - [Module Overview](#module-overview)
 - [Importing](#importing)
 - [Classes and Functions](#classes-and-functions)
-- [Sending](#sending)
   - [Embed](#building-embed)
   - [Format Editor](#format-editor)
   - [Get Player Shot](#get-player-shot)
@@ -53,15 +52,6 @@ local embed = DYWebhook.BuildEmbed()
   		Thumbnail = DYWebhook.GetPlayerShot.Avatar(4923724712, DYWebhook.Size["420x420"])
   	}
   }
-```
-
-## Sending
-```lua
-DYWebhook:Send({
-	url = {"WEBHOOK_URL_HERE"}, -- can be more than one
-	content = "Content (Normal Message)",
-	embeds = {embed} -- can be more than one
-})
 ```
 
 ## Format Editor
@@ -170,4 +160,48 @@ local formattedText = DYWebhook.FormatEditor.Spoiler("Spoiler Text")
 Formats a URL with optional link text.
 ```lua
 local formattedLink = DYWebhook.FormatEditor.URL("https://example.com", "Link Text")
+```
+
+Certainly, here's the section for the `Get Player Shot` functionality:
+
+## Get Player Shot
+
+The `Darkrai Y Webhook Services` class provides functions to get different types of shots of a player's avatar.
+
+### Headshot
+
+Gets the headshot of a player's avatar.
+```lua
+local userID = 123456789 -- Replace with the user's ID
+local size = DYWebhook.Size["420x420"] -- Replace with the desired size
+local headshotUrl = DYWebhook.GetPlayerShot.Headshot(userID, size)
+```
+
+### Bust Shot
+
+Gets the bust shot (upper body) of a player's avatar.
+```lua
+local userID = 123456789 -- Replace with the user's ID
+local size = DYWebhook.Size["420x420"] -- Replace with the desired size
+local bustShotUrl = DYWebhook.GetPlayerShot.BustShot(userID, size)
+```
+
+### Avatar
+
+Gets the full avatar of a player.
+```lua
+local userID = 123456789 -- Replace with the user's ID
+local size = DYWebhook.Size["420x420"] -- Replace with the desired size
+local avatarUrl = DYWebhook.GetPlayerShot.Avatar(userID, size)
+```
+
+Replace `123456789` with the actual user's ID and use the appropriate size from the provided `DYWebhook.Size` table. These functions will return the URL of the respective player shot.
+
+## Sending
+```lua
+DYWebhook:Send({
+	url = {"WEBHOOK_URL_HERE"}, -- can be more than one
+	content = "Content (Normal Message)",
+	embeds = {embed} -- can be more than one
+})
 ```
