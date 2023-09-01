@@ -1,0 +1,1326 @@
+local LOL = game.CoreGui:FindFirstChild("DYScript-Search")
+if LOL then LOL:Destroy() end
+
+local A=Instance.new
+local B={["Frame_1"]=A("Frame"),["UICorner_1"]=A("UICorner"),["Frame_2"]=A("Frame"),["UICorner_2"]=A("UICorner"),["Frame_3"]=A("Frame"),["Frame_4"]=A("Frame"),["ImageLabel_1"]=A("ImageLabel"),["TextBox_1"]=A("TextBox"),["ImageButton_1"]=A("ImageButton"),["ImageButton_2"]=A("ImageButton"),["Frame_5"]=A("Frame"),["TextLabel_1"]=A("TextLabel"),["ScrollingFrame_1"]=A("ScrollingFrame"),["UIListLayout_1"]=A("UIListLayout"),["Frame_6"]=A("Frame"),["UICorner_3"]=A("UICorner"),["UIStroke_1"]=A("UIStroke"),["ImageLabel_2"]=A("ImageLabel"),["TextLabel_2"]=A("TextLabel"),["UIPadding_1"]=A("UIPadding"),["Frame_7"]=A("Frame"),["UICorner_4"]=A("UICorner"),["UIStroke_2"]=A("UIStroke"),["ImageLabel_3"]=A("ImageLabel"),["TextLabel_3"]=A("TextLabel"),["Frame_8"]=A("Frame"),["UICorner_5"]=A("UICorner"),["UIStroke_3"]=A("UIStroke"),["ImageLabel_4"]=A("ImageLabel"),["TextLabel_4"]=A("TextLabel"),["Frame_9"]=A("Frame"),["UICorner_6"]=A("UICorner"),["UIStroke_4"]=A("UIStroke"),["TextLabel_5"]=A("TextLabel"),["UIPadding_2"]=A("UIPadding"),["ImageLabel_5"]=A("ImageLabel"),["Frame_10"]=A("Frame"),["TextLabel_6"]=A("TextLabel"),["Frame_11"]=A("Frame"),["UIListLayout_2"]=A("UIListLayout"),["TextButton_1"]=A("TextButton"),["ImageLabel_6"]=A("ImageLabel"),["TextLabel_7"]=A("TextLabel"),["TextLabel_8"]=A("TextLabel"),["UICorner_7"]=A("UICorner"),["ImageButton_3"]=A("ImageButton"),["TextButton_2"]=A("TextButton"),["ImageLabel_7"]=A("ImageLabel"),["TextLabel_9"]=A("TextLabel"),["TextLabel_10"]=A("TextLabel"),["UICorner_8"]=A("UICorner"),["ImageButton_4"]=A("ImageButton"),["TextButton_3"]=A("TextButton"),["ImageLabel_8"]=A("ImageLabel"),["TextLabel_11"]=A("TextLabel"),["TextLabel_12"]=A("TextLabel"),["UICorner_9"]=A("UICorner"),["ImageButton_5"]=A("ImageButton"),["Frame_12"]=A("Frame"),["TextLabel_13"]=A("TextLabel"),["Frame_13"]=A("Frame"),["ScrollingFrame_2"]=A("ScrollingFrame"),["UIListLayout_3"]=A("UIListLayout"),["TextButton_4"]=A("TextButton"),["UICorner_10"]=A("UICorner"),["ImageLabel_9"]=A("ImageLabel"),["UICorner_11"]=A("UICorner"),["UIStroke_5"]=A("UIStroke"),["TextLabel_14"]=A("TextLabel"),["TextBox_2"]=A("TextBox"),["UICorner_12"]=A("UICorner"),["UIStroke_6"]=A("UIStroke"),["TextButton_5"]=A("TextButton"),["UICorner_13"]=A("UICorner"),["ImageLabel_10"]=A("ImageLabel"),["UICorner_14"]=A("UICorner"),["UIStroke_7"]=A("UIStroke"),["TextLabel_15"]=A("TextLabel"),["TextBox_3"]=A("TextBox"),["UICorner_15"]=A("UICorner"),["UIStroke_8"]=A("UIStroke"),["Frame_14"]=A("Frame"),["TextButton_6"]=A("TextButton"),["UICorner_16"]=A("UICorner"),["ImageLabel_11"]=A("ImageLabel"),["UICorner_17"]=A("UICorner"),["UIStroke_9"]=A("UIStroke"),["TextLabel_16"]=A("TextLabel"),["TextBox_4"]=A("TextBox"),["UICorner_18"]=A("UICorner"),["UIStroke_10"]=A("UIStroke"),["TextButton_7"]=A("TextButton"),["UICorner_19"]=A("UICorner"),["ImageLabel_12"]=A("ImageLabel"),["UICorner_20"]=A("UICorner"),["UIStroke_11"]=A("UIStroke"),["TextLabel_17"]=A("TextLabel"),["TextBox_5"]=A("TextBox"),["UICorner_21"]=A("UICorner"),["UIStroke_12"]=A("UIStroke"),["UICorner_22"]=A("UICorner"),["UIStroke_13"]=A("UIStroke"),["Frame_15"]=A("Frame"),["TextLabel_18"]=A("TextLabel"),["Frame_16"]=A("Frame"),["ScrollingFrame_3"]=A("ScrollingFrame"),["UIListLayout_4"]=A("UIListLayout"),["Frame_17"]=A("Frame"),["UICorner_23"]=A("UICorner"),["Frame_18"]=A("Frame"),["UICorner_24"]=A("UICorner"),["TextLabel_19"]=A("TextLabel"),["TextLabel_20"]=A("TextLabel"),["TextLabel_21"]=A("TextLabel"),["TextLabel_22"]=A("TextLabel"),["UIAspectRatioConstraint_1"]=A("UIAspectRatioConstraint"),["ImageLabel_13"]=A("ImageLabel"),["UICorner_25"]=A("UICorner"),["UIGradient_1"]=A("UIGradient"),["UIStroke_14"]=A("UIStroke"),["TextButton_8"]=A("TextButton"),["UICorner_26"]=A("UICorner"),["UIStroke_15"]=A("UIStroke"),["TextButton_9"]=A("TextButton"),["UICorner_27"]=A("UICorner"),["UIStroke_16"]=A("UIStroke"),["TextButton_10"]=A("TextButton"),["UICorner_28"]=A("UICorner"),["UIStroke_17"]=A("UIStroke"),["TextLabel_23"]=A("TextLabel"),["UIPadding_3"]=A("UIPadding"),["UICorner_29"]=A("UICorner"),["UIStroke_18"]=A("UIStroke"),["LocalScript_1"]=A("LocalScript"),["ScreenGui_1"]=A("ScreenGui")}
+
+--top parent
+B.ScreenGui_1.Parent = game.CoreGui
+
+B.Frame_1.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.Frame_1.BorderColor3 = Color3.new(0,0,0)
+B.Frame_1.BorderSizePixel = 0
+B.Frame_1.ClipsDescendants = true
+B.Frame_1.Position = UDim2.new(0.346205056,0,0.0938271582,0)
+B.Frame_1.Size = UDim2.new(0,478,0,551)
+B.Frame_1.Name = [[MainFrame]]
+B.Frame_1.Parent = B.ScreenGui_1
+B.UICorner_1.CornerRadius = UDim.new(0,15)
+B.UICorner_1.Parent = B.Frame_1
+B.Frame_2.BackgroundColor3 = Color3.new(0.0941176,0.0941176,0.0941176)
+B.Frame_2.BorderColor3 = Color3.new(0,0,0)
+B.Frame_2.BorderSizePixel = 0
+B.Frame_2.Size = UDim2.new(0,478,0,51)
+B.Frame_2.Name = [[Search]]
+B.Frame_2.Parent = B.Frame_1
+B.UICorner_2.CornerRadius = UDim.new(0,15)
+B.UICorner_2.Parent = B.Frame_2
+B.Frame_3.BackgroundColor3 = Color3.new(0.0941176,0.0941176,0.0941176)
+B.Frame_3.BorderSizePixel = 0
+B.Frame_3.Position = UDim2.new(0,0,0.813725471,0)
+B.Frame_3.Size = UDim2.new(1,0,0.186274514,0)
+B.Frame_3.Visible = false
+B.Frame_3.Name = [[UICornerOverlayE]]
+B.Frame_3.Parent = B.Frame_2
+B.Frame_4.AnchorPoint = Vector2.new(0.5,0)
+B.Frame_4.BackgroundColor3 = Color3.new(0.235294,0.235294,0.235294)
+B.Frame_4.BorderColor3 = Color3.new(0,0,0)
+B.Frame_4.BorderSizePixel = 0
+B.Frame_4.Position = UDim2.new(0.5,0,1,0)
+B.Frame_4.Size = UDim2.new(1,0,0,1)
+B.Frame_4.ZIndex = 190
+B.Frame_4.Name = [[Divider]]
+B.Frame_4.Parent = B.Frame_2
+B.ImageLabel_1.Image = [[http://www.roblox.com/asset/?id=6031154871]]
+B.ImageLabel_1.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageLabel_1.BackgroundTransparency = 1
+B.ImageLabel_1.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_1.BorderSizePixel = 0
+B.ImageLabel_1.Position = UDim2.new(0.0334728025,0,0.254901975,0)
+B.ImageLabel_1.Size = UDim2.new(0,25,0,25)
+B.ImageLabel_1.Name = [[SearchLogo]]
+B.ImageLabel_1.Parent = B.Frame_2
+B.TextBox_1.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextBox_1.PlaceholderText = [[Search for actions, universals, debugs]]
+B.TextBox_1.Text = [[]]
+B.TextBox_1.TextColor3 = Color3.new(1,1,1)
+B.TextBox_1.TextSize = 14
+B.TextBox_1.TextXAlignment = Enum.TextXAlignment.Left
+B.TextBox_1.BackgroundColor3 = Color3.new(1,1,1)
+B.TextBox_1.BackgroundTransparency = 1
+B.TextBox_1.BorderColor3 = Color3.new(0,0,0)
+B.TextBox_1.BorderSizePixel = 0
+B.TextBox_1.Position = UDim2.new(0.117154814,0,0,0)
+B.TextBox_1.Size = UDim2.new(0,343,0,50)
+B.TextBox_1.Parent = B.Frame_2
+B.ImageButton_1.Image = [[rbxassetid://12974354535]]
+B.ImageButton_1.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageButton_1.BackgroundTransparency = 1
+B.ImageButton_1.BorderColor3 = Color3.new(0,0,0)
+B.ImageButton_1.BorderSizePixel = 0
+B.ImageButton_1.Position = UDim2.new(0.910041869,0,0.254901975,0)
+B.ImageButton_1.Size = UDim2.new(0,25,0,25)
+B.ImageButton_1.Name = [[ArrowIcon]]
+B.ImageButton_1.Parent = B.Frame_2
+B.ImageButton_2.Image = [[http://www.roblox.com/asset/?id=6031094679]]
+B.ImageButton_2.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageButton_2.BackgroundTransparency = 1
+B.ImageButton_2.BorderColor3 = Color3.new(0,0,0)
+B.ImageButton_2.BorderSizePixel = 0
+B.ImageButton_2.Position = UDim2.new(0.843096256,0,0.254901975,0)
+B.ImageButton_2.Rotation = 180
+B.ImageButton_2.Size = UDim2.new(0,25,0,25)
+B.ImageButton_2.Name = [[Expand]]
+B.ImageButton_2.Parent = B.Frame_2
+B.Frame_5.BackgroundColor3 = Color3.new(1,1,1)
+B.Frame_5.BackgroundTransparency = 1
+B.Frame_5.BorderColor3 = Color3.new(0,0,0)
+B.Frame_5.BorderSizePixel = 0
+B.Frame_5.Position = UDim2.new(0,0,0.068965517,3)
+B.Frame_5.Size = UDim2.new(1,0,0.0217785835,100)
+B.Frame_5.Name = [[LookingFor]]
+B.Frame_5.Parent = B.Frame_1
+B.TextLabel_1.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_1.Text = [[Are You Looking For...]]
+B.TextLabel_1.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_1.TextSize = 12
+B.TextLabel_1.TextTransparency = 0.4099999964237213
+B.TextLabel_1.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_1.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_1.BackgroundTransparency = 1
+B.TextLabel_1.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_1.BorderSizePixel = 0
+B.TextLabel_1.Position = UDim2.new(0.0329999998,0,0.180000007,0)
+B.TextLabel_1.Size = UDim2.new(0,240,0,18)
+B.TextLabel_1.Parent = B.Frame_5
+B.ScrollingFrame_1.AutomaticCanvasSize = Enum.AutomaticSize.X
+B.ScrollingFrame_1.CanvasSize = UDim2.new(0,0,0,0)
+B.ScrollingFrame_1.ScrollBarThickness = 0
+B.ScrollingFrame_1.Active = true
+B.ScrollingFrame_1.BackgroundColor3 = Color3.new(0,0,0)
+B.ScrollingFrame_1.BackgroundTransparency = 1
+B.ScrollingFrame_1.BorderColor3 = Color3.new(0,0,0)
+B.ScrollingFrame_1.BorderSizePixel = 0
+B.ScrollingFrame_1.Position = UDim2.new(0,0,0.412500113,-5)
+B.ScrollingFrame_1.Size = UDim2.new(0,472,0,39)
+B.ScrollingFrame_1.Parent = B.Frame_5
+B.UIListLayout_1.Padding = UDim.new(0,13)
+B.UIListLayout_1.FillDirection = Enum.FillDirection.Horizontal
+B.UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+B.UIListLayout_1.Parent = B.ScrollingFrame_1
+B.Frame_6.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.Frame_6.BorderColor3 = Color3.new(0,0,0)
+B.Frame_6.BorderSizePixel = 0
+B.Frame_6.Position = UDim2.new(0,0,0.0769230798,0)
+B.Frame_6.Size = UDim2.new(0,98,0,29)
+B.Frame_6.Name = [[1]]
+B.Frame_6.Parent = B.ScrollingFrame_1
+B.UICorner_3.CornerRadius = UDim.new(1,0)
+B.UICorner_3.Parent = B.Frame_6
+B.UIStroke_1.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_1.Parent = B.Frame_6
+B.ImageLabel_2.Image = [[http://www.roblox.com/asset/?id=6022668888]]
+B.ImageLabel_2.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageLabel_2.BackgroundTransparency = 1
+B.ImageLabel_2.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_2.BorderSizePixel = 0
+B.ImageLabel_2.Position = UDim2.new(0.183673471,-7,0.241379306,0)
+B.ImageLabel_2.Size = UDim2.new(0,15,0,15)
+B.ImageLabel_2.Parent = B.Frame_6
+B.TextLabel_2.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_2.Text = [[Scripts]]
+B.TextLabel_2.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_2.TextSize = 12
+B.TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_2.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_2.BackgroundTransparency = 1
+B.TextLabel_2.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_2.BorderSizePixel = 0
+B.TextLabel_2.Position = UDim2.new(0.336734682,0,0.241379306,0)
+B.TextLabel_2.Size = UDim2.new(0,65,0,15)
+B.TextLabel_2.Parent = B.Frame_6
+B.UIPadding_1.PaddingLeft = UDim.new(0,17)
+B.UIPadding_1.Parent = B.ScrollingFrame_1
+B.Frame_7.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.Frame_7.BorderColor3 = Color3.new(0,0,0)
+B.Frame_7.BorderSizePixel = 0
+B.Frame_7.Position = UDim2.new(0,0,0.0769230798,0)
+B.Frame_7.Size = UDim2.new(0,98,0,29)
+B.Frame_7.Name = [[2]]
+B.Frame_7.Parent = B.ScrollingFrame_1
+B.UICorner_4.CornerRadius = UDim.new(1,0)
+B.UICorner_4.Parent = B.Frame_7
+B.UIStroke_2.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_2.Parent = B.Frame_7
+B.ImageLabel_3.Image = [[http://www.roblox.com/asset/?id=6022860338]]
+B.ImageLabel_3.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageLabel_3.BackgroundTransparency = 1
+B.ImageLabel_3.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_3.BorderSizePixel = 0
+B.ImageLabel_3.Position = UDim2.new(0.183673471,-7,0.241379306,0)
+B.ImageLabel_3.Size = UDim2.new(0,15,0,15)
+B.ImageLabel_3.Parent = B.Frame_7
+B.TextLabel_3.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_3.Text = [[Universal]]
+B.TextLabel_3.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_3.TextSize = 12
+B.TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_3.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_3.BackgroundTransparency = 1
+B.TextLabel_3.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_3.BorderSizePixel = 0
+B.TextLabel_3.Position = UDim2.new(0.336734682,0,0.241379306,0)
+B.TextLabel_3.Size = UDim2.new(0,65,0,15)
+B.TextLabel_3.Parent = B.Frame_7
+B.Frame_8.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.Frame_8.BorderColor3 = Color3.new(0,0,0)
+B.Frame_8.BorderSizePixel = 0
+B.Frame_8.Position = UDim2.new(0,0,0.0769230798,0)
+B.Frame_8.Size = UDim2.new(0,98,0,29)
+B.Frame_8.Name = [[3]]
+B.Frame_8.Parent = B.ScrollingFrame_1
+B.UICorner_5.CornerRadius = UDim.new(1,0)
+B.UICorner_5.Parent = B.Frame_8
+B.UIStroke_3.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_3.Parent = B.Frame_8
+B.ImageLabel_4.Image = [[http://www.roblox.com/asset/?id=6023426938]]
+B.ImageLabel_4.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageLabel_4.BackgroundTransparency = 1
+B.ImageLabel_4.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_4.BorderSizePixel = 0
+B.ImageLabel_4.Position = UDim2.new(0.183673471,-7,0.241379306,0)
+B.ImageLabel_4.Size = UDim2.new(0,15,0,15)
+B.ImageLabel_4.Parent = B.Frame_8
+B.TextLabel_4.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_4.Text = [[Debugs]]
+B.TextLabel_4.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_4.TextSize = 12
+B.TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_4.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_4.BackgroundTransparency = 1
+B.TextLabel_4.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_4.BorderSizePixel = 0
+B.TextLabel_4.Position = UDim2.new(0.336734682,0,0.241379306,0)
+B.TextLabel_4.Size = UDim2.new(0,65,0,15)
+B.TextLabel_4.Parent = B.Frame_8
+B.Frame_9.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.Frame_9.BorderColor3 = Color3.new(0,0,0)
+B.Frame_9.BorderSizePixel = 0
+B.Frame_9.Position = UDim2.new(0.741648078,0,0.128205135,0)
+B.Frame_9.Size = UDim2.new(0,72,0,29)
+B.Frame_9.Name = [[4]]
+B.Frame_9.Parent = B.ScrollingFrame_1
+B.UICorner_6.CornerRadius = UDim.new(1,0)
+B.UICorner_6.Parent = B.Frame_9
+B.UIStroke_4.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_4.Parent = B.Frame_9
+B.TextLabel_5.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_5.Text = [[More]]
+B.TextLabel_5.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_5.TextSize = 12
+B.TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_5.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_5.BackgroundTransparency = 1
+B.TextLabel_5.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_5.BorderSizePixel = 0
+B.TextLabel_5.Size = UDim2.new(1,0,1,0)
+B.TextLabel_5.Parent = B.Frame_9
+B.UIPadding_2.PaddingLeft = UDim.new(0,12)
+B.UIPadding_2.Parent = B.TextLabel_5
+B.ImageLabel_5.Image = [[http://www.roblox.com/asset/?id=6031091008]]
+B.ImageLabel_5.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageLabel_5.BackgroundTransparency = 1
+B.ImageLabel_5.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_5.BorderSizePixel = 0
+B.ImageLabel_5.Position = UDim2.new(0.736111104,-3,0.275862068,0)
+B.ImageLabel_5.Size = UDim2.new(0,12,0,12)
+B.ImageLabel_5.Parent = B.Frame_9
+B.Frame_10.BackgroundColor3 = Color3.new(1,1,1)
+B.Frame_10.BackgroundTransparency = 1
+B.Frame_10.BorderColor3 = Color3.new(0,0,0)
+B.Frame_10.BorderSizePixel = 0
+B.Frame_10.Position = UDim2.new(0,0,0.250453711,0)
+B.Frame_10.Size = UDim2.new(0,478,0,126)
+B.Frame_10.Name = [[LastSearch]]
+B.Frame_10.Parent = B.Frame_1
+B.TextLabel_6.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_6.RichText = true
+B.TextLabel_6.Text = [[Last Search <font transparency="0">3</font>]]
+B.TextLabel_6.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_6.TextSize = 12
+B.TextLabel_6.TextTransparency = 0.4099999964237213
+B.TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_6.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_6.BackgroundTransparency = 1
+B.TextLabel_6.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_6.BorderSizePixel = 0
+B.TextLabel_6.Position = UDim2.new(0.0334728025,0,-0.0339286439,0)
+B.TextLabel_6.Size = UDim2.new(0,240,0,18)
+B.TextLabel_6.Parent = B.Frame_10
+B.Frame_11.BackgroundColor3 = Color3.new(1,1,1)
+B.Frame_11.BackgroundTransparency = 1
+B.Frame_11.BorderColor3 = Color3.new(0,0,0)
+B.Frame_11.BorderSizePixel = 0
+B.Frame_11.Position = UDim2.new(0.031380754,0,0.103174604,4)
+B.Frame_11.Size = UDim2.new(0,445,0,100)
+B.Frame_11.Parent = B.Frame_10
+B.UIListLayout_2.Padding = UDim.new(0,5)
+B.UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+B.UIListLayout_2.Parent = B.Frame_11
+B.TextButton_1.Text = [[]]
+B.TextButton_1.TextTransparency = 1
+B.TextButton_1.Active = false
+B.TextButton_1.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.TextButton_1.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_1.BorderSizePixel = 0
+B.TextButton_1.Selectable = false
+B.TextButton_1.Size = UDim2.new(1,0,-0.189999998,50)
+B.TextButton_1.Name = [[Template]]
+B.TextButton_1.Parent = B.Frame_11
+B.ImageLabel_6.Image = [[http://www.roblox.com/asset/?id=6022668888]]
+B.ImageLabel_6.AnchorPoint = Vector2.new(0,0.5)
+B.ImageLabel_6.BackgroundColor3 = Color3.new(0.247059,0.247059,0.247059)
+B.ImageLabel_6.BackgroundTransparency = 1
+B.ImageLabel_6.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_6.BorderSizePixel = 0
+B.ImageLabel_6.Position = UDim2.new(0.0247191004,0,0.5,0)
+B.ImageLabel_6.Size = UDim2.new(0,17,0,17)
+B.ImageLabel_6.Name = [[TypeImage]]
+B.ImageLabel_6.Parent = B.TextButton_1
+B.TextLabel_7.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_7.Text = [[Darkrai Y]]
+B.TextLabel_7.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_7.TextSize = 14
+B.TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_7.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_7.BackgroundTransparency = 1
+B.TextLabel_7.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_7.BorderSizePixel = 0
+B.TextLabel_7.Position = UDim2.new(0.0966292098,-4,0.0300145298,0)
+B.TextLabel_7.Size = UDim2.new(0,162,0,30)
+B.TextLabel_7.Parent = B.TextButton_1
+B.TextLabel_8.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_8.Text = [[Scripts]]
+B.TextLabel_8.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_8.TextSize = 11
+B.TextLabel_8.TextTransparency = 0.3799999952316284
+B.TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_8.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_8.BackgroundTransparency = 1
+B.TextLabel_8.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_8.BorderSizePixel = 0
+B.TextLabel_8.Position = UDim2.new(0.260674149,-4,0.0300145298,0)
+B.TextLabel_8.Size = UDim2.new(0,118,0,30)
+B.TextLabel_8.Name = [[Type]]
+B.TextLabel_8.Parent = B.TextButton_1
+B.UICorner_7.CornerRadius = UDim.new(0,5)
+B.UICorner_7.Parent = B.TextButton_1
+B.ImageButton_3.Image = [[http://www.roblox.com/asset/?id=6031094678]]
+B.ImageButton_3.Active = false
+B.ImageButton_3.AnchorPoint = Vector2.new(1,0.5)
+B.ImageButton_3.BackgroundColor3 = Color3.new(0.247059,0.247059,0.247059)
+B.ImageButton_3.BackgroundTransparency = 1
+B.ImageButton_3.BorderColor3 = Color3.new(0,0,0)
+B.ImageButton_3.BorderSizePixel = 0
+B.ImageButton_3.Position = UDim2.new(0.982022464,0,0.5,0)
+B.ImageButton_3.Selectable = false
+B.ImageButton_3.Size = UDim2.new(0,17,0,17)
+B.ImageButton_3.Name = [[Close]]
+B.ImageButton_3.Parent = B.TextButton_1
+B.TextButton_2.Text = [[]]
+B.TextButton_2.TextTransparency = 1
+B.TextButton_2.Active = false
+B.TextButton_2.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.TextButton_2.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_2.BorderSizePixel = 0
+B.TextButton_2.Selectable = false
+B.TextButton_2.Size = UDim2.new(1,0,-0.189999998,50)
+B.TextButton_2.Name = [[Template]]
+B.TextButton_2.Parent = B.Frame_11
+B.ImageLabel_7.Image = [[http://www.roblox.com/asset/?id=6022860338]]
+B.ImageLabel_7.AnchorPoint = Vector2.new(0,0.5)
+B.ImageLabel_7.BackgroundColor3 = Color3.new(0.247059,0.247059,0.247059)
+B.ImageLabel_7.BackgroundTransparency = 1
+B.ImageLabel_7.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_7.BorderSizePixel = 0
+B.ImageLabel_7.Position = UDim2.new(0.0247191004,0,0.5,0)
+B.ImageLabel_7.Size = UDim2.new(0,17,0,17)
+B.ImageLabel_7.Name = [[TypeImage]]
+B.ImageLabel_7.Parent = B.TextButton_2
+B.TextLabel_9.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_9.Text = [[Inf Yield]]
+B.TextLabel_9.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_9.TextSize = 14
+B.TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_9.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_9.BackgroundTransparency = 1
+B.TextLabel_9.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_9.BorderSizePixel = 0
+B.TextLabel_9.Position = UDim2.new(0.0966292098,-4,0.0300145298,0)
+B.TextLabel_9.Size = UDim2.new(0,162,0,30)
+B.TextLabel_9.Parent = B.TextButton_2
+B.TextLabel_10.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_10.Text = [[Universal]]
+B.TextLabel_10.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_10.TextSize = 11
+B.TextLabel_10.TextTransparency = 0.3799999952316284
+B.TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_10.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_10.BackgroundTransparency = 1
+B.TextLabel_10.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_10.BorderSizePixel = 0
+B.TextLabel_10.Position = UDim2.new(0.247191012,-4,0.0300145298,0)
+B.TextLabel_10.Size = UDim2.new(0,118,0,30)
+B.TextLabel_10.Name = [[Type]]
+B.TextLabel_10.Parent = B.TextButton_2
+B.UICorner_8.CornerRadius = UDim.new(0,5)
+B.UICorner_8.Parent = B.TextButton_2
+B.ImageButton_4.Image = [[http://www.roblox.com/asset/?id=6031094678]]
+B.ImageButton_4.Active = false
+B.ImageButton_4.AnchorPoint = Vector2.new(1,0.5)
+B.ImageButton_4.BackgroundColor3 = Color3.new(0.247059,0.247059,0.247059)
+B.ImageButton_4.BackgroundTransparency = 1
+B.ImageButton_4.BorderColor3 = Color3.new(0,0,0)
+B.ImageButton_4.BorderSizePixel = 0
+B.ImageButton_4.Position = UDim2.new(0.982022464,0,0.5,0)
+B.ImageButton_4.Selectable = false
+B.ImageButton_4.Size = UDim2.new(0,17,0,17)
+B.ImageButton_4.Name = [[Close]]
+B.ImageButton_4.Parent = B.TextButton_2
+B.TextButton_3.Text = [[]]
+B.TextButton_3.TextTransparency = 1
+B.TextButton_3.Active = false
+B.TextButton_3.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.TextButton_3.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_3.BorderSizePixel = 0
+B.TextButton_3.Position = UDim2.new(0.0876404494,0,1.88,0)
+B.TextButton_3.Selectable = false
+B.TextButton_3.Size = UDim2.new(1,0,-0.189999998,50)
+B.TextButton_3.Name = [[Template]]
+B.TextButton_3.Parent = B.Frame_11
+B.ImageLabel_8.Image = [[http://www.roblox.com/asset/?id=6023426938]]
+B.ImageLabel_8.AnchorPoint = Vector2.new(0,0.5)
+B.ImageLabel_8.BackgroundColor3 = Color3.new(0.247059,0.247059,0.247059)
+B.ImageLabel_8.BackgroundTransparency = 1
+B.ImageLabel_8.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_8.BorderSizePixel = 0
+B.ImageLabel_8.Position = UDim2.new(0.0247191004,0,0.5,0)
+B.ImageLabel_8.Size = UDim2.new(0,17,0,17)
+B.ImageLabel_8.Name = [[TypeImage]]
+B.ImageLabel_8.Parent = B.TextButton_3
+B.TextLabel_11.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_11.Text = [[Dex Explorer]]
+B.TextLabel_11.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_11.TextSize = 14
+B.TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_11.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_11.BackgroundTransparency = 1
+B.TextLabel_11.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_11.BorderSizePixel = 0
+B.TextLabel_11.Position = UDim2.new(0.0966292098,-4,0.0300145298,0)
+B.TextLabel_11.Size = UDim2.new(0,162,0,30)
+B.TextLabel_11.Parent = B.TextButton_3
+B.TextLabel_12.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_12.Text = [[Debug]]
+B.TextLabel_12.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_12.TextSize = 11
+B.TextLabel_12.TextTransparency = 0.3799999952316284
+B.TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_12.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_12.BackgroundTransparency = 1
+B.TextLabel_12.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_12.BorderSizePixel = 0
+B.TextLabel_12.Position = UDim2.new(0.32134831,-4,0.0300145298,0)
+B.TextLabel_12.Size = UDim2.new(0,118,0,30)
+B.TextLabel_12.Name = [[Type]]
+B.TextLabel_12.Parent = B.TextButton_3
+B.UICorner_9.CornerRadius = UDim.new(0,5)
+B.UICorner_9.Parent = B.TextButton_3
+B.ImageButton_5.Image = [[http://www.roblox.com/asset/?id=6031094678]]
+B.ImageButton_5.Active = false
+B.ImageButton_5.AnchorPoint = Vector2.new(1,0.5)
+B.ImageButton_5.BackgroundColor3 = Color3.new(0.247059,0.247059,0.247059)
+B.ImageButton_5.BackgroundTransparency = 1
+B.ImageButton_5.BorderColor3 = Color3.new(0,0,0)
+B.ImageButton_5.BorderSizePixel = 0
+B.ImageButton_5.Position = UDim2.new(0.982022464,0,0.5,0)
+B.ImageButton_5.Selectable = false
+B.ImageButton_5.Size = UDim2.new(0,17,0,17)
+B.ImageButton_5.Name = [[Close]]
+B.ImageButton_5.Parent = B.TextButton_3
+B.Frame_12.BackgroundColor3 = Color3.new(1,1,1)
+B.Frame_12.BackgroundTransparency = 1
+B.Frame_12.BorderColor3 = Color3.new(0,0,0)
+B.Frame_12.BorderSizePixel = 0
+B.Frame_12.Position = UDim2.new(3.83065839e-07,0,0.482758611,0)
+B.Frame_12.Size = UDim2.new(0,478,0,81)
+B.Frame_12.Name = [[QuickActs]]
+B.Frame_12.Parent = B.Frame_1
+B.TextLabel_13.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_13.RichText = true
+B.TextLabel_13.Text = [[Quick Actions]]
+B.TextLabel_13.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_13.TextSize = 12
+B.TextLabel_13.TextTransparency = 0.4099999964237213
+B.TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_13.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_13.BackgroundTransparency = 1
+B.TextLabel_13.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_13.BorderSizePixel = 0
+B.TextLabel_13.Position = UDim2.new(0.0292887036,0,0.00310827186,2)
+B.TextLabel_13.Size = UDim2.new(0,240,0,18)
+B.TextLabel_13.Parent = B.Frame_12
+B.Frame_13.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.Frame_13.BorderColor3 = Color3.new(0,0,0)
+B.Frame_13.BorderSizePixel = 0
+B.Frame_13.Position = UDim2.new(0.0309999865,0,0.288000047,4)
+B.Frame_13.Size = UDim2.new(0,445,0,114)
+B.Frame_13.Parent = B.Frame_12
+B.ScrollingFrame_2.AutomaticCanvasSize = Enum.AutomaticSize.Y
+B.ScrollingFrame_2.ScrollBarThickness = 0
+B.ScrollingFrame_2.BackgroundColor3 = Color3.new(1,1,1)
+B.ScrollingFrame_2.BackgroundTransparency = 1
+B.ScrollingFrame_2.BorderColor3 = Color3.new(0,0,0)
+B.ScrollingFrame_2.BorderSizePixel = 0
+B.ScrollingFrame_2.Position = UDim2.new(0,0,0.0526315793,0)
+B.ScrollingFrame_2.Selectable = false
+B.ScrollingFrame_2.Size = UDim2.new(1,0,0.894736826,0)
+B.ScrollingFrame_2.ZIndex = 2
+B.ScrollingFrame_2.SelectionGroup = false
+B.ScrollingFrame_2.Name = [[Frame]]
+B.ScrollingFrame_2.Parent = B.Frame_13
+B.UIListLayout_3.Padding = UDim.new(0,5)
+B.UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+B.UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+B.UIListLayout_3.Parent = B.ScrollingFrame_2
+B.TextButton_4.TextTransparency = 1
+B.TextButton_4.Active = false
+B.TextButton_4.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.TextButton_4.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_4.BorderSizePixel = 0
+B.TextButton_4.Position = UDim2.new(0.0101123592,0,0,0)
+B.TextButton_4.Selectable = false
+B.TextButton_4.Size = UDim2.new(0,436,0,36)
+B.TextButton_4.Name = [[Frame]]
+B.TextButton_4.Parent = B.ScrollingFrame_2
+B.UICorner_10.CornerRadius = UDim.new(0,5)
+B.UICorner_10.Parent = B.TextButton_4
+B.ImageLabel_9.Image = [[http://www.roblox.com/asset/?id=6035047377]]
+B.ImageLabel_9.Active = true
+B.ImageLabel_9.AnchorPoint = Vector2.new(0,0.5)
+B.ImageLabel_9.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.ImageLabel_9.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_9.BorderSizePixel = 0
+B.ImageLabel_9.Position = UDim2.new(0.0206422023,-3,0.472222209,0)
+B.ImageLabel_9.Selectable = true
+B.ImageLabel_9.Size = UDim2.new(0,25,0,25)
+B.ImageLabel_9.Name = [[ImageButton]]
+B.ImageLabel_9.Parent = B.TextButton_4
+B.UICorner_11.CornerRadius = UDim.new(0,5)
+B.UICorner_11.Parent = B.ImageLabel_9
+B.UIStroke_5.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_5.Parent = B.ImageLabel_9
+B.TextLabel_14.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_14.Text = [[Create Action]]
+B.TextLabel_14.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_14.TextSize = 14
+B.TextLabel_14.TextWrapped = true
+B.TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_14.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_14.BackgroundTransparency = 1
+B.TextLabel_14.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_14.BorderSizePixel = 0
+B.TextLabel_14.Position = UDim2.new(0.110390618,-4,0.0577926636,0)
+B.TextLabel_14.Size = UDim2.new(0,162,0,30)
+B.TextLabel_14.Parent = B.TextButton_4
+B.TextBox_2.PlaceholderText = [[C]]
+B.TextBox_2.Text = [[]]
+B.TextBox_2.TextColor3 = Color3.new(0.207843,0.207843,0.207843)
+B.TextBox_2.AnchorPoint = Vector2.new(0,0.5)
+B.TextBox_2.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.TextBox_2.BorderColor3 = Color3.new(0,0,0)
+B.TextBox_2.BorderSizePixel = 0
+B.TextBox_2.Position = UDim2.new(0.924311936,-1,0.5,0)
+B.TextBox_2.Size = UDim2.new(0,22,0,22)
+B.TextBox_2.Name = [[Keybind]]
+B.TextBox_2.Parent = B.TextButton_4
+B.UICorner_12.CornerRadius = UDim.new(0,5)
+B.UICorner_12.Parent = B.TextBox_2
+B.UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+B.UIStroke_6.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_6.Parent = B.TextBox_2
+B.TextButton_5.TextTransparency = 1
+B.TextButton_5.Active = false
+B.TextButton_5.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.TextButton_5.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_5.BorderSizePixel = 0
+B.TextButton_5.Position = UDim2.new(0.0101123592,0,0,0)
+B.TextButton_5.Selectable = false
+B.TextButton_5.Size = UDim2.new(0,436,0,36)
+B.TextButton_5.Name = [[Frame]]
+B.TextButton_5.Parent = B.ScrollingFrame_2
+B.UICorner_13.CornerRadius = UDim.new(0,5)
+B.UICorner_13.Parent = B.TextButton_5
+B.ImageLabel_10.Image = [[http://www.roblox.com/asset/?id=6031260773]]
+B.ImageLabel_10.Active = true
+B.ImageLabel_10.AnchorPoint = Vector2.new(0,0.5)
+B.ImageLabel_10.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.ImageLabel_10.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_10.BorderSizePixel = 0
+B.ImageLabel_10.Position = UDim2.new(0.0206422023,-3,0.472222209,0)
+B.ImageLabel_10.Selectable = true
+B.ImageLabel_10.Size = UDim2.new(0,25,0,25)
+B.ImageLabel_10.Name = [[ImageButton]]
+B.ImageLabel_10.Parent = B.TextButton_5
+B.UICorner_14.CornerRadius = UDim.new(0,5)
+B.UICorner_14.Parent = B.ImageLabel_10
+B.UIStroke_7.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_7.Parent = B.ImageLabel_10
+B.TextLabel_15.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_15.Text = [[Edit Action]]
+B.TextLabel_15.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_15.TextSize = 14
+B.TextLabel_15.TextWrapped = true
+B.TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_15.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_15.BackgroundTransparency = 1
+B.TextLabel_15.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_15.BorderSizePixel = 0
+B.TextLabel_15.Position = UDim2.new(0.110390618,-4,0.0577926636,0)
+B.TextLabel_15.Size = UDim2.new(0,162,0,30)
+B.TextLabel_15.Parent = B.TextButton_5
+B.TextBox_3.PlaceholderText = [[T]]
+B.TextBox_3.Text = [[]]
+B.TextBox_3.TextColor3 = Color3.new(0.207843,0.207843,0.207843)
+B.TextBox_3.AnchorPoint = Vector2.new(0,0.5)
+B.TextBox_3.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.TextBox_3.BorderColor3 = Color3.new(0,0,0)
+B.TextBox_3.BorderSizePixel = 0
+B.TextBox_3.Position = UDim2.new(0.924311936,-1,0.5,0)
+B.TextBox_3.Size = UDim2.new(0,22,0,22)
+B.TextBox_3.Name = [[Keybind]]
+B.TextBox_3.Parent = B.TextButton_5
+B.UICorner_15.CornerRadius = UDim.new(0,5)
+B.UICorner_15.Parent = B.TextBox_3
+B.UIStroke_8.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+B.UIStroke_8.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_8.Parent = B.TextBox_3
+B.Frame_14.AnchorPoint = Vector2.new(0.5,0)
+B.Frame_14.BackgroundColor3 = Color3.new(0.235294,0.235294,0.235294)
+B.Frame_14.BorderColor3 = Color3.new(0,0,0)
+B.Frame_14.BorderSizePixel = 0
+B.Frame_14.Position = UDim2.new(0.594382107,0,0.784313738,0)
+B.Frame_14.Size = UDim2.new(0.892543435,0,0,1)
+B.Frame_14.ZIndex = 190
+B.Frame_14.Name = [[Divider]]
+B.Frame_14.Parent = B.ScrollingFrame_2
+B.TextButton_6.TextTransparency = 1
+B.TextButton_6.Active = false
+B.TextButton_6.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.TextButton_6.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_6.BorderSizePixel = 0
+B.TextButton_6.Position = UDim2.new(0.0101123592,0,0,0)
+B.TextButton_6.Selectable = false
+B.TextButton_6.Size = UDim2.new(0,436,0,36)
+B.TextButton_6.Name = [[Frame]]
+B.TextButton_6.Parent = B.ScrollingFrame_2
+B.UICorner_16.CornerRadius = UDim.new(0,5)
+B.UICorner_16.Parent = B.TextButton_6
+B.ImageLabel_11.Image = [[http://www.roblox.com/asset/?id=6031090994]]
+B.ImageLabel_11.Active = true
+B.ImageLabel_11.AnchorPoint = Vector2.new(0,0.5)
+B.ImageLabel_11.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.ImageLabel_11.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_11.BorderSizePixel = 0
+B.ImageLabel_11.Position = UDim2.new(0.0206422023,-3,0.472222209,0)
+B.ImageLabel_11.Selectable = true
+B.ImageLabel_11.Size = UDim2.new(0,25,0,25)
+B.ImageLabel_11.Name = [[ImageButton]]
+B.ImageLabel_11.Parent = B.TextButton_6
+B.UICorner_17.CornerRadius = UDim.new(0,5)
+B.UICorner_17.Parent = B.ImageLabel_11
+B.UIStroke_9.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_9.Parent = B.ImageLabel_11
+B.TextLabel_16.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_16.Text = [[Infinite Yield]]
+B.TextLabel_16.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_16.TextSize = 14
+B.TextLabel_16.TextWrapped = true
+B.TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_16.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_16.BackgroundTransparency = 1
+B.TextLabel_16.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_16.BorderSizePixel = 0
+B.TextLabel_16.Position = UDim2.new(0.110390618,-4,0.0577926636,0)
+B.TextLabel_16.Size = UDim2.new(0,162,0,30)
+B.TextLabel_16.Parent = B.TextButton_6
+B.TextBox_4.PlaceholderText = [[I]]
+B.TextBox_4.Text = [[]]
+B.TextBox_4.TextColor3 = Color3.new(0.207843,0.207843,0.207843)
+B.TextBox_4.AnchorPoint = Vector2.new(0,0.5)
+B.TextBox_4.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.TextBox_4.BorderColor3 = Color3.new(0,0,0)
+B.TextBox_4.BorderSizePixel = 0
+B.TextBox_4.Position = UDim2.new(0.924311936,-1,0.5,0)
+B.TextBox_4.Size = UDim2.new(0,22,0,22)
+B.TextBox_4.Name = [[Keybind]]
+B.TextBox_4.Parent = B.TextButton_6
+B.UICorner_18.CornerRadius = UDim.new(0,5)
+B.UICorner_18.Parent = B.TextBox_4
+B.UIStroke_10.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+B.UIStroke_10.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_10.Parent = B.TextBox_4
+B.TextButton_7.TextTransparency = 1
+B.TextButton_7.Active = false
+B.TextButton_7.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.TextButton_7.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_7.BorderSizePixel = 0
+B.TextButton_7.Position = UDim2.new(0.0101123592,0,0,0)
+B.TextButton_7.Selectable = false
+B.TextButton_7.Size = UDim2.new(0,436,0,36)
+B.TextButton_7.Name = [[Frame]]
+B.TextButton_7.Parent = B.ScrollingFrame_2
+B.UICorner_19.CornerRadius = UDim.new(0,5)
+B.UICorner_19.Parent = B.TextButton_7
+B.ImageLabel_12.Image = [[http://www.roblox.com/asset/?id=6031090994]]
+B.ImageLabel_12.Active = true
+B.ImageLabel_12.AnchorPoint = Vector2.new(0,0.5)
+B.ImageLabel_12.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.ImageLabel_12.BorderColor3 = Color3.new(0,0,0)
+B.ImageLabel_12.BorderSizePixel = 0
+B.ImageLabel_12.Position = UDim2.new(0.0206422023,-3,0.472222209,0)
+B.ImageLabel_12.Selectable = true
+B.ImageLabel_12.Size = UDim2.new(0,25,0,25)
+B.ImageLabel_12.Name = [[ImageButton]]
+B.ImageLabel_12.Parent = B.TextButton_7
+B.UICorner_20.CornerRadius = UDim.new(0,5)
+B.UICorner_20.Parent = B.ImageLabel_12
+B.UIStroke_11.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_11.Parent = B.ImageLabel_12
+B.TextLabel_17.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Bold,Enum.FontStyle.Normal)
+B.TextLabel_17.Text = [[Dex Explorer]]
+B.TextLabel_17.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_17.TextSize = 14
+B.TextLabel_17.TextWrapped = true
+B.TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_17.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_17.BackgroundTransparency = 1
+B.TextLabel_17.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_17.BorderSizePixel = 0
+B.TextLabel_17.Position = UDim2.new(0.110390618,-4,0.0577926636,0)
+B.TextLabel_17.Size = UDim2.new(0,162,0,30)
+B.TextLabel_17.Parent = B.TextButton_7
+B.TextBox_5.PlaceholderText = [[T]]
+B.TextBox_5.Text = [[]]
+B.TextBox_5.TextColor3 = Color3.new(0.207843,0.207843,0.207843)
+B.TextBox_5.AnchorPoint = Vector2.new(0,0.5)
+B.TextBox_5.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.TextBox_5.BorderColor3 = Color3.new(0,0,0)
+B.TextBox_5.BorderSizePixel = 0
+B.TextBox_5.Position = UDim2.new(0.924311936,-1,0.5,0)
+B.TextBox_5.Size = UDim2.new(0,22,0,22)
+B.TextBox_5.Name = [[Keybind]]
+B.TextBox_5.Parent = B.TextButton_7
+B.UICorner_21.CornerRadius = UDim.new(0,5)
+B.UICorner_21.Parent = B.TextBox_5
+B.UIStroke_12.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+B.UIStroke_12.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_12.Parent = B.TextBox_5
+B.UICorner_22.Parent = B.Frame_13
+B.UIStroke_13.Color = Color3.new(0.235294,0.235294,0.235294)
+B.UIStroke_13.Parent = B.Frame_13
+B.Frame_15.BackgroundColor3 = Color3.new(1,1,1)
+B.Frame_15.BackgroundTransparency = 1
+B.Frame_15.BorderColor3 = Color3.new(0,0,0)
+B.Frame_15.BorderSizePixel = 0
+B.Frame_15.Position = UDim2.new(0.0292890854,0,0.768290341,0)
+B.Frame_15.Size = UDim2.new(0,445,0,111)
+B.Frame_15.Name = [[Results]]
+B.Frame_15.Parent = B.Frame_1
+B.TextLabel_18.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_18.RichText = true
+B.TextLabel_18.Text = [[Results]]
+B.TextLabel_18.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_18.TextSize = 12
+B.TextLabel_18.TextTransparency = 0.4099999964237213
+B.TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_18.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_18.BackgroundTransparency = 1
+B.TextLabel_18.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_18.BorderSizePixel = 0
+B.TextLabel_18.Position = UDim2.new(-0.00217202865,0,-0.0239186324,2)
+B.TextLabel_18.Size = UDim2.new(0,240,0,18)
+B.TextLabel_18.Parent = B.Frame_15
+B.Frame_16.BackgroundColor3 = Color3.new(0.105882,0.105882,0.0980392)
+B.Frame_16.BorderColor3 = Color3.new(0,0,0)
+B.Frame_16.BorderSizePixel = 0
+B.Frame_16.Position = UDim2.new(-0,0,0.180000007,4)
+B.Frame_16.Size = UDim2.new(0,445,0,89)
+B.Frame_16.Parent = B.Frame_15
+B.ScrollingFrame_3.AutomaticCanvasSize = Enum.AutomaticSize.Y
+B.ScrollingFrame_3.CanvasPosition = Vector2.new(0,113)
+B.ScrollingFrame_3.ScrollBarThickness = 0
+B.ScrollingFrame_3.BackgroundColor3 = Color3.new(1,1,1)
+B.ScrollingFrame_3.BackgroundTransparency = 1
+B.ScrollingFrame_3.BorderColor3 = Color3.new(0,0,0)
+B.ScrollingFrame_3.BorderSizePixel = 0
+B.ScrollingFrame_3.Selectable = false
+B.ScrollingFrame_3.Size = UDim2.new(1,0,1,0)
+B.ScrollingFrame_3.ZIndex = 2
+B.ScrollingFrame_3.SelectionGroup = false
+B.ScrollingFrame_3.Name = [[Frame]]
+B.ScrollingFrame_3.Parent = B.Frame_16
+B.UIListLayout_4.Padding = UDim.new(0,13)
+B.UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+B.UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+B.UIListLayout_4.Parent = B.ScrollingFrame_3
+B.Frame_17.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.Frame_17.BackgroundTransparency = 1
+B.Frame_17.BorderColor3 = Color3.new(0,0,0)
+B.Frame_17.BorderSizePixel = 0
+B.Frame_17.Position = UDim2.new(0.0292134825,0,-0.0424422957,0)
+B.Frame_17.Size = UDim2.new(0,423,0,182)
+B.Frame_17.Name = [[Template]]
+B.Frame_17.Parent = B.ScrollingFrame_3
+B.UICorner_23.Parent = B.Frame_17
+B.Frame_18.BackgroundColor3 = Color3.new(0.0784314,0.0784314,0.0784314)
+B.Frame_18.Position = UDim2.new(0.869976223,-351,-0.483007669,103)
+B.Frame_18.Size = UDim2.new(0,266,0,156)
+B.Frame_18.ZIndex = 0
+B.Frame_18.Name = [[Game]]
+B.Frame_18.Parent = B.Frame_17
+B.UICorner_24.CornerRadius = UDim.new(0,23)
+B.UICorner_24.Parent = B.Frame_18
+B.TextLabel_19.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Heavy,Enum.FontStyle.Normal)
+B.TextLabel_19.Text = [[Awesome Yes Doors Script]]
+B.TextLabel_19.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_19.TextScaled = true
+B.TextLabel_19.TextSize = 29
+B.TextLabel_19.TextWrapped = true
+B.TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_19.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_19.BackgroundTransparency = 1
+B.TextLabel_19.Position = UDim2.new(0,18,0,15)
+B.TextLabel_19.Size = UDim2.new(0,242,0,18)
+B.TextLabel_19.ZIndex = 186
+B.TextLabel_19.Name = [[Title]]
+B.TextLabel_19.Parent = B.Frame_18
+B.TextLabel_20.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Medium,Enum.FontStyle.Normal)
+B.TextLabel_20.RichText = true
+B.TextLabel_20.Text = [[<b>Game:</b> Doors That Makes Me Go Yes]]
+B.TextLabel_20.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_20.TextScaled = true
+B.TextLabel_20.TextSize = 29
+B.TextLabel_20.TextTransparency = 0.30000001192092896
+B.TextLabel_20.TextWrapped = true
+B.TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_20.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_20.BackgroundTransparency = 1
+B.TextLabel_20.Position = UDim2.new(0,18,0,37)
+B.TextLabel_20.Size = UDim2.new(0,242,0,12)
+B.TextLabel_20.ZIndex = 186
+B.TextLabel_20.Name = [[Id]]
+B.TextLabel_20.Parent = B.Frame_18
+B.TextLabel_21.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Medium,Enum.FontStyle.Normal)
+B.TextLabel_21.RichText = true
+B.TextLabel_21.Text = [[<b>Universal:</b> Flalse]]
+B.TextLabel_21.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_21.TextScaled = true
+B.TextLabel_21.TextSize = 29
+B.TextLabel_21.TextTransparency = 0.30000001192092896
+B.TextLabel_21.TextWrapped = true
+B.TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_21.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_21.BackgroundTransparency = 1
+B.TextLabel_21.Position = UDim2.new(0,18,0,67)
+B.TextLabel_21.Size = UDim2.new(0,242,0,12)
+B.TextLabel_21.ZIndex = 186
+B.TextLabel_21.Name = [[Key]]
+B.TextLabel_21.Parent = B.Frame_18
+B.TextLabel_22.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Medium,Enum.FontStyle.Normal)
+B.TextLabel_22.RichText = true
+B.TextLabel_22.Text = [[<b>Patched:</b> False]]
+B.TextLabel_22.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_22.TextScaled = true
+B.TextLabel_22.TextSize = 29
+B.TextLabel_22.TextTransparency = 0.30000001192092896
+B.TextLabel_22.TextWrapped = true
+B.TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_22.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_22.BackgroundTransparency = 1
+B.TextLabel_22.Position = UDim2.new(0,18,0,52)
+B.TextLabel_22.Size = UDim2.new(0,242,0,12)
+B.TextLabel_22.ZIndex = 186
+B.TextLabel_22.Name = [[Patched]]
+B.TextLabel_22.Parent = B.Frame_18
+B.UIAspectRatioConstraint_1.AspectRatio = 2.216783285140991
+B.UIAspectRatioConstraint_1.Parent = B.Frame_18
+B.ImageLabel_13.Image = [[rbxassetid://11381179031]]
+B.ImageLabel_13.ImageColor3 = Color3.new(0.901961,0.901961,0.901961)
+B.ImageLabel_13.ScaleType = Enum.ScaleType.Crop
+B.ImageLabel_13.AnchorPoint = Vector2.new(0.5,0.5)
+B.ImageLabel_13.BackgroundColor3 = Color3.new(1,1,1)
+B.ImageLabel_13.BackgroundTransparency = 1
+B.ImageLabel_13.Position = UDim2.new(0.5,0,0.5,0)
+B.ImageLabel_13.Size = UDim2.new(1.01271319,0,0.99999994,0)
+B.ImageLabel_13.ZIndex = 185
+B.ImageLabel_13.Name = [[Thumbnail]]
+B.ImageLabel_13.Parent = B.Frame_18
+B.UICorner_25.CornerRadius = UDim.new(0,10)
+B.UICorner_25.Parent = B.ImageLabel_13
+B.UIGradient_1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.new(1,1,1)),ColorSequenceKeypoint.new(0.623489,Color3.new(0.222351,0.222351,0.222351)),ColorSequenceKeypoint.new(1,Color3.new(0.184314,0.184314,0.184314))}
+B.UIGradient_1.Rotation = 150
+B.UIGradient_1.Parent = B.ImageLabel_13
+B.UIStroke_14.Color = Color3.new(0.235294,0.235294,0.235294)
+B.UIStroke_14.Parent = B.Frame_17
+B.TextButton_8.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextButton_8.Text = [[Launch]]
+B.TextButton_8.TextColor3 = Color3.new(1,1,1)
+B.TextButton_8.TextSize = 16
+B.TextButton_8.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.TextButton_8.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_8.BorderSizePixel = 0
+B.TextButton_8.Position = UDim2.new(0.708613276,0,0.115384616,0)
+B.TextButton_8.Size = UDim2.new(0,106,0,30)
+B.TextButton_8.Name = [[Launch]]
+B.TextButton_8.Parent = B.Frame_17
+B.UICorner_26.CornerRadius = UDim.new(0,5)
+B.UICorner_26.Parent = B.TextButton_8
+B.UIStroke_15.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+B.UIStroke_15.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_15.Parent = B.TextButton_8
+B.TextButton_9.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextButton_9.Text = [[Copy]]
+B.TextButton_9.TextColor3 = Color3.new(1,1,1)
+B.TextButton_9.TextSize = 16
+B.TextButton_9.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.TextButton_9.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_9.BorderSizePixel = 0
+B.TextButton_9.Position = UDim2.new(0.708613276,0,0.34065935,-1)
+B.TextButton_9.Size = UDim2.new(0,106,0,30)
+B.TextButton_9.Name = [[Copy]]
+B.TextButton_9.Parent = B.Frame_17
+B.UICorner_27.CornerRadius = UDim.new(0,5)
+B.UICorner_27.Parent = B.TextButton_9
+B.UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+B.UIStroke_16.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_16.Parent = B.TextButton_9
+B.TextButton_10.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextButton_10.Text = [[Maximize]]
+B.TextButton_10.TextColor3 = Color3.new(1,1,1)
+B.TextButton_10.TextSize = 16
+B.TextButton_10.BackgroundColor3 = Color3.new(0.184314,0.184314,0.184314)
+B.TextButton_10.BorderColor3 = Color3.new(0,0,0)
+B.TextButton_10.BorderSizePixel = 0
+B.TextButton_10.Position = UDim2.new(0.708613276,0,0.560439587,-1)
+B.TextButton_10.Size = UDim2.new(0,106,0,30)
+B.TextButton_10.Name = [[Maximize]]
+B.TextButton_10.Parent = B.Frame_17
+B.UICorner_28.CornerRadius = UDim.new(0,5)
+B.UICorner_28.Parent = B.TextButton_10
+B.UIStroke_17.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+B.UIStroke_17.Color = Color3.new(0.282353,0.278431,0.254902)
+B.UIStroke_17.Parent = B.TextButton_10
+B.TextLabel_23.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+B.TextLabel_23.RichText = true
+B.TextLabel_23.Text = [[Powered By 
+<b>ScriptBlox</b>]]
+B.TextLabel_23.TextColor3 = Color3.new(1,1,1)
+B.TextLabel_23.TextSize = 14
+B.TextLabel_23.TextWrapped = true
+B.TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
+B.TextLabel_23.TextYAlignment = Enum.TextYAlignment.Top
+B.TextLabel_23.BackgroundColor3 = Color3.new(1,1,1)
+B.TextLabel_23.BackgroundTransparency = 1
+B.TextLabel_23.BorderColor3 = Color3.new(0,0,0)
+B.TextLabel_23.BorderSizePixel = 0
+B.TextLabel_23.Position = UDim2.new(0.0378250591,0,0.790329456,0)
+B.TextLabel_23.Size = UDim2.new(0,200,0,31)
+B.TextLabel_23.Name = [[Powered]]
+B.TextLabel_23.Parent = B.Frame_17
+B.UIPadding_3.PaddingBottom = UDim.new(0,10)
+B.UIPadding_3.PaddingTop = UDim.new(0,10)
+B.UIPadding_3.Parent = B.ScrollingFrame_3
+B.UICorner_29.Parent = B.Frame_16
+B.UIStroke_18.Color = Color3.new(0.235294,0.235294,0.235294)
+B.UIStroke_18.Parent = B.Frame_16
+B.LocalScript_1.Parent = B.ScreenGui_1
+B.ScreenGui_1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+B.ScreenGui_1.Name = [[DYScript-Search]]
+
+
+local function LocalScript_1(script)
+
+	if not game:IsLoaded() then
+		wait(0.5)
+	end
+	
+	local TS = game:GetService("TweenService")
+	
+	local ScreenGui = script.Parent
+	local MainFrame = script.Parent.MainFrame
+	local SearchBox = MainFrame.Search.TextBox
+	local ExpandButton = SearchBox.Parent.Expand
+	
+	------ Bool Values
+	local ExpandRotated = true
+	local MainMenuOpened = false
+	
+	MainFrame.Size = UDim2.new(0, 12, 0, 51)
+	
+	local transitionInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quint)
+	local tween = TS:Create(MainFrame, transitionInfo, {BackgroundTransparency = 0})
+	tween:Play()
+	wait(0.1)
+	local tween = game:GetService("TweenService"):Create(MainFrame, transitionInfo, {Size = UDim2.new(0, 478, 0, 51)})
+	tween:Play()
+	
+	local function RotateExpandButton(bool)
+		if bool == true then
+			if ExpandRotated == true then
+				ExpandRotated = false
+				local tween = game:GetService("TweenService"):Create(ExpandButton, transitionInfo, {Rotation = 0})
+				tween:Play()
+			end
+		else
+			if ExpandRotated == false then
+				ExpandRotated = true
+				local tween = game:GetService("TweenService"):Create(ExpandButton, transitionInfo, {Rotation = 180})
+				tween:Play()
+			end
+		end
+	end
+	
+	local function OpenMainMenu(bool)
+		if bool == true then
+			if MainMenuOpened == false then
+				MainMenuOpened = true
+				local tween = game:GetService("TweenService"):Create(MainFrame, transitionInfo, {Size = UDim2.new(0, 478, 0, 551)})
+				tween:Play()
+				wait(0.1)
+				MainFrame.LookingFor.TextLabel.Visible = true
+				TS:Create(MainFrame.LookingFor.TextLabel, transitionInfo, {TextTransparency  = 0.41}):Play()
+				wait(0.1)
+				for _, btn in ipairs(MainFrame.LookingFor.ScrollingFrame:GetChildren()) do
+					if btn.Name ~= "UIListLayout" and btn.Name ~= "UIPadding" then
+						btn.Visible = true
+						local transitionInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quint)
+						local tween = TS:Create(btn.ImageLabel, transitionInfo, {ImageTransparency = 0})
+						tween:Play()
+						local tween = TS:Create(btn, transitionInfo, {BackgroundTransparency = 0})
+						tween:Play()
+						local tween = TS:Create(btn.TextLabel, transitionInfo, {TextTransparency = 0})
+						tween:Play()
+						local tween = TS:Create(btn.UIStroke, transitionInfo, {Transparency = 0})
+						tween:Play()
+						wait(0.1)
+					end
+				end
+				wait(0.1)
+				MainFrame.LastSearch.TextLabel.Visible = true
+				TS:Create(MainFrame.LastSearch.TextLabel, transitionInfo, {TextTransparency  = 0.41}):Play()
+				wait(0.1)
+				for _, btn in ipairs(MainFrame.LastSearch.Frame:GetChildren()) do
+					if btn.Name ~= "UIListLayout" then
+						btn.Visible = true
+						local transitionInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quint)
+						local tween = TS:Create(btn.Close, transitionInfo, {ImageTransparency = 0})
+						tween:Play()
+						local tween = TS:Create(btn.TypeImage, transitionInfo, {ImageTransparency = 0})
+						tween:Play()
+						local tween = TS:Create(btn, transitionInfo, {BackgroundTransparency = 0})
+						tween:Play()
+						local tween = TS:Create(btn.TextLabel, transitionInfo, {TextTransparency = 0})
+						tween:Play()
+						local tween = TS:Create(btn.Type, transitionInfo, {TextTransparency = 0})
+						tween:Play()
+						wait(0.1)
+					end
+				end
+				wait(0.1)
+				MainFrame.QuickActs.TextLabel.Visible = true
+				TS:Create(MainFrame.QuickActs.TextLabel, transitionInfo, {TextTransparency  = 0.41}):Play()
+				wait(0.1)
+				MainFrame.QuickActs.Frame.Visible = true
+				wait(0.1)
+				MainFrame.Results.TextLabel.Visible = true
+				TS:Create(MainFrame.Results.TextLabel, transitionInfo, {TextTransparency  = 0.41}):Play()
+				wait(0.1)
+				MainFrame.Results.Frame.Visible = true
+			end
+		else
+			if MainMenuOpened == true then
+				MainMenuOpened = false
+				MainFrame.Results.Frame.Visible = false
+				wait(0.1)
+				TS:Create(MainFrame.Results.TextLabel, transitionInfo, {TextTransparency  = 1}):Play()
+				MainFrame.Results.TextLabel.Visible = false
+				wait(0.1)
+				MainFrame.QuickActs.Frame.Visible = false
+				wait(0.1)
+				TS:Create(MainFrame.QuickActs.TextLabel, transitionInfo, {TextTransparency  = 1}):Play()
+				MainFrame.QuickActs.TextLabel.Visible = false
+				wait(0.1)
+	
+				local children = MainFrame.LastSearch.Frame:GetChildren()
+	
+				for i = #children, 1, -1 do
+					local btn = children[i]
+					if btn.Name ~= "UIListLayout" and btn.Name ~= "UIPadding" then
+						local transitionInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quint)
+						local tween = TS:Create(btn.Close, transitionInfo, {ImageTransparency = 1})
+						tween:Play()
+						local tween = TS:Create(btn.TypeImage, transitionInfo, {ImageTransparency = 1})
+						tween:Play()
+						local tween = TS:Create(btn, transitionInfo, {BackgroundTransparency = 1})
+						tween:Play()
+						local tween = TS:Create(btn.TextLabel, transitionInfo, {TextTransparency = 1})
+						tween:Play()
+						local tween = TS:Create(btn.Type, transitionInfo, {TextTransparency = 1})
+						tween:Play()
+						wait(0.1)
+						btn.Visible = false
+					end
+				end
+				wait(0.1)
+				TS:Create(MainFrame.LastSearch.TextLabel, transitionInfo, {TextTransparency  = 1}):Play()
+				MainFrame.LastSearch.TextLabel.Visible = false
+				wait(0.1)
+				local children = MainFrame.LookingFor.ScrollingFrame:GetChildren()
+	
+				for i = #children, 1, -1 do
+					local btn = children[i]
+					if btn.Name ~= "UIListLayout" and btn.Name ~= "UIPadding" then
+						local transitionInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quint)
+						local tween = TS:Create(btn.ImageLabel, transitionInfo, {ImageTransparency = 1})
+						tween:Play()
+						local tween = TS:Create(btn, transitionInfo, {BackgroundTransparency = 1})
+						tween:Play()
+						local tween = TS:Create(btn.TextLabel, transitionInfo, {TextTransparency = 1})
+						tween:Play()
+						local tween = TS:Create(btn.UIStroke, transitionInfo, {Transparency = 1})
+						tween:Play()
+						wait(0.1)
+						btn.Visible = false
+					end
+				end
+				wait(0.1)
+				TS:Create(MainFrame.LookingFor.TextLabel, transitionInfo, {TextTransparency  = 1}):Play()
+				MainFrame.LookingFor.TextLabel.Visible = true
+				wait(0.1)
+				local tween = game:GetService("TweenService"):Create(MainFrame, transitionInfo, {Size = UDim2.new(0, 478, 0, 51)})
+				tween:Play()
+			end
+		end
+	end
+	
+	MainFrame.QuickActs.Frame.MouseEnter:Connect(function()
+		MainFrame.LastSearch.Visible = false
+		MainFrame.LookingFor.Visible = false
+		MainFrame.QuickActs.TextLabel.Visible = false
+		MainFrame.Results.Visible = false
+	
+		TS:Create(MainFrame.QuickActs.Frame, transitionInfo, {Size  = UDim2.new(0,445,0,475)}):Play()
+		TS:Create(MainFrame.QuickActs.Frame, transitionInfo, {Position  = UDim2.new(0.031,0,-2.578,4)}):Play()
+	end)
+	
+	MainFrame.QuickActs.Frame.MouseLeave:Connect(function()
+		TS:Create(MainFrame.QuickActs.Frame, transitionInfo, {Size  = UDim2.new(0,445,0,104)}):Play()
+		TS:Create(MainFrame.QuickActs.Frame, transitionInfo, {Position  = UDim2.new(0.031, 0, 0.288, 4)}):Play()
+	
+		MainFrame.LastSearch.Visible = true
+		MainFrame.LookingFor.Visible = true
+		MainFrame.QuickActs.TextLabel.Visible = true
+		MainFrame.Results.Visible = true
+	end)
+	
+	MainFrame.Results.Frame.MouseEnter:Connect(function()
+		MainFrame.LastSearch.Visible = false
+		MainFrame.LookingFor.Visible = false
+		MainFrame.Results.TextLabel.Visible = false
+		MainFrame.QuickActs.Visible = false
+	
+		TS:Create(MainFrame.Results.Frame, transitionInfo, {Size  = UDim2.new(0, 444, 0, 475)}):Play()
+		TS:Create(MainFrame.Results.Frame, transitionInfo, {Position  = UDim2.new(0, 0, -3.299, 4)}):Play()
+	end)
+	
+	MainFrame.Results.Frame.MouseLeave:Connect(function()
+		TS:Create(MainFrame.Results.Frame, transitionInfo, {Size  = UDim2.new(0, 445, 0, 89)}):Play()
+		TS:Create(MainFrame.Results.Frame, transitionInfo, {Position  = UDim2.new(-0, 0, 0.18, 4)}):Play()
+	
+		MainFrame.LastSearch.Visible = true
+		MainFrame.LookingFor.Visible = true
+		MainFrame.Results.TextLabel.Visible = true
+		MainFrame.QuickActs.Visible = true
+	end)
+	
+	local function getHrefs(html)
+		local hrefs = {}
+		for href in html:gmatch("<a .- href=\"(.-)\" .-></a>") do
+			table.insert(hrefs, href) 
+		end
+		return hrefs
+	end
+	
+	local function getContent(pageHtml)
+		local fileName = pageHtml:match("href=\"/raw/(.-)\"")
+		return {
+			title = pageHtml:match("<title>(.-)</title>"),
+			description = pageHtml:match("<meta name=\"description\" content=\"(.-)\">"), 
+			keywords = pageHtml:match("<meta name=\"keywords\" content=\"(.-)\">"),
+			author = pageHtml:match("<meta name=\"author\" content=\"(.-)\">"),
+			fileName = fileName
+		}
+	end
+	
+	local function getScriptSource(fileName)
+		return game:HttpGet(string.format("https://rscripts.net/raw/%s", fileName))
+	end
+	
+	local function searchScripts(searchTerm, limit)
+		for i, v in ipairs(MainFrame.Results.Frame.Frame:GetChildren()) do
+			if v.Name ~= "UIPadding" and v.Name ~= "UIListLayout" and v.Name ~= "Template" then
+				v:Destroy()
+			end
+		end	
+		local results = {}
+	
+		local function shuffle(tbl)
+			for i = #tbl, 2, -1 do
+				local j = math.random(i)
+				tbl[i], tbl[j] = tbl[j], tbl[i]
+			end
+			return tbl
+		end
+	
+		local function searchScriptBlox()
+			local searchHtml = game:HttpGet(string.format("https://www.scriptblox.com/api/script/search?q="..searchTerm.."&page="..1))
+			local searchResults = game:GetService("HttpService"):JSONDecode(searchHtml)
+	
+			for _, result in ipairs(searchResults['result']['scripts']) do
+				table.insert(results, {
+					title = result.title,
+					link = "https://www.scriptblox.com/games/" .. result.game.gameId,
+					isPatched = result.isPatched,
+					SC = "ScriptBlox",  -- Indicate the source here
+					isUniversal = result.isUniversal,
+					gameid = result['game']['gameId'],
+					script = result.script
+				})
+			end
+		end
+	
+		local function searchRScripts()
+			local searchHtml = game:HttpGet(string.format("https://rscripts.net/ajaxSearch?term=%s&user=0", searchTerm))
+			local hrefs = getHrefs(searchHtml)
+	
+			for _, href in ipairs(hrefs) do
+				local pageHtml = game:HttpGet(string.format("https://rscripts.net%s", href))
+				local content = getContent(pageHtml)
+				local scriptSource = getScriptSource(content.fileName)
+	
+				table.insert(results, {
+					title = content.title,
+					SC = "RScripts",  -- Indicate the source here
+					description = content.description,
+					script = scriptSource
+				})
+			end
+		end
+	
+		while #results < limit do
+			searchScriptBlox()
+		end
+	
+		-- Shuffle and limit the results
+		local shuffledResults = shuffle(results)
+		while #shuffledResults > limit do
+			table.remove(shuffledResults)
+		end
+	
+		local Template = MainFrame.Results.Frame.Frame.Template
+		Template.Visible = false	
+		
+		for i, v in pairs(shuffledResults) do
+			local ClonedTemp = Template:Clone()
+			ClonedTemp.Visible = true
+			ClonedTemp.Name = "yp"
+			ClonedTemp.Parent = MainFrame.Results.Frame.Frame
+			
+			ClonedTemp.Game.Id.Text = "<b>Game:</b> "..((v.gameid and game:GetService("MarketplaceService"):GetProductInfo(v.gameid).Name) or (v.isUniversal and "Universal") or "Unable To Find")
+			ClonedTemp.Game.Title.Text = (v.title or "Unable To Find")
+			ClonedTemp.Game.Patched.Text = "<b>Patched:</b> "..(tostring(v.isPatched) or "Unable To Find")
+			ClonedTemp.Game.Key.Text = "<b>Universal:</b> "..(tostring(v.isUniversal) or "Unable To Find")
+			ClonedTemp.Game.Thumbnail.Image = ((v.gameid and "https://www.roblox.com/asset-thumbnail/image?assetId="..v.gameid.."&width=768&height=432&format=png") or "rbxassetid://14167800463")
+			
+			ClonedTemp.Launch.MouseButton1Click:Connect(function()
+				if v.script then loadstring(v.script)() else warn("Unable To Find Script") end
+			end)
+			
+			ClonedTemp.Launch.MouseButton1Click:Connect(function()
+				if v.script then setclipboard(v.script) else warn("Unable To Find Script") end
+			end)
+			
+			ClonedTemp.Powered.Text = "Powered By\n<b>"..v.SC.."</b>"
+		end
+	end
+	
+	local function debounce(func)
+		local isRunning = false
+		return function(...)
+			if not isRunning then
+				isRunning = true
+				func(...)
+				wait(0.2)
+				isRunning = false
+			end
+		end
+	end
+	
+	local debouncedOpenMainMenu = debounce(OpenMainMenu)
+	local debouncedRotateExpandButton = debounce(RotateExpandButton)
+	
+	SearchBox:GetPropertyChangedSignal("Text"):Connect(function()
+		local newText = SearchBox.Text
+	
+		if newText ~= "" then
+			debouncedOpenMainMenu(true)
+			debouncedRotateExpandButton(true)
+		else
+			debouncedOpenMainMenu(false)
+			debouncedRotateExpandButton(false)
+		end
+	end)
+	
+	SearchBox.FocusLost:Connect(function(enterPressed: boolean) 
+		if enterPressed then
+			searchScripts(SearchBox.Text, 10)
+		end
+	end)
+	
+	ExpandButton.MouseButton1Click:Connect(function() 
+		if ExpandRotated == true then
+			debouncedOpenMainMenu(true)
+			debouncedRotateExpandButton(true)
+		else
+			debouncedOpenMainMenu(false)
+			debouncedRotateExpandButton(false)
+		end
+	end)
+	
+	--[[
+	{0, 478},{0, 51}
+	{0, 478},{0, 551}]]
+end
+
+coroutine.wrap(LocalScript_1)(B.LocalScript_1)
