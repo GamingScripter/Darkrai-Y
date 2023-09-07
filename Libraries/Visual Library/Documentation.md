@@ -20,11 +20,11 @@ The `VisualLibrary` module provides functionality for creating and managing visu
 
 ## Module Overview
 
-The `VisualLibrary` module is designed to create and manage visual elements in Roblox games. These visual elements can include lines and highlights, which can be used to provide visual cues and information to players.
+The `VisualLibrary` module is designed to create and manage visual elements in Roblox Exploits. These visual elements can include lines and highlights, which can be used to provide visual cues and information to players.
 
 ## Importing
 
-To use the `VisualLibrary` module in your Roblox game, you can import it as follows:
+To use the `VisualLibrary` module in your Roblox Exploit, you can import it as follows:
 
 ```lua
 local VisualLibrary = loadstring(game:HttpGet()()
@@ -121,7 +121,7 @@ line.Object.Visible = false
 
 ## Example Usage
 
-Here's an example of how you can use the `VisualLibrary` module to create and track visual elements in your Roblox game. This example creates a line that tracks the top position of a player's character:
+Here's an example of how you can use the `VisualLibrary` module to create and track visual elements in your Roblox Exploit. This example creates a line that tracks the top position of a player's character:
 
 ```lua
 local VisualLibrary = require(game.ServerScriptService.VisualLibrary) -- Replace with the actual path
