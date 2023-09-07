@@ -1,4 +1,4 @@
-# VisualLibrary Module Documentation (W.I.P)
+# Visual Library Module Documentation (W.I.P)
 
 The `VisualLibrary` module provides functionality for creating and managing visual elements in Roblox Exploits, such as Drawing and highlights. These visual elements can be used to enhance the user interface and provide information about in-game objects.
 
@@ -27,7 +27,7 @@ The `VisualLibrary` module is designed to create and manage visual elements in R
 To use the `VisualLibrary` module in your Roblox Exploit, you can import it as follows:
 
 ```lua
-local VisualLibrary = loadstring(game:HttpGet()()
+local VisualLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-Y/main/Libraries/Visual%20Library/Main"))()
 ```
 
 ## Creating Visual Elements
@@ -124,7 +124,7 @@ line.Object.Visible = false
 Here's an example of how you can use the `VisualLibrary` module to create and track visual elements in your Roblox Exploit. This example creates a line that tracks the top position of a player's character:
 
 ```lua
-local VisualLibrary = require(game.ServerScriptService.VisualLibrary) -- Replace with the actual path
+local VisualLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-Y/main/Libraries/Visual%20Library/Main"))()
 
 -- Create a line visual element
 local line = VisualLibrary:CreateVisual("Drawing", {
