@@ -7,7 +7,7 @@ The `VisualLibrary` module provides functionality for creating and managing visu
 - [Module Overview](#module-overview)
 - [Importing](#importing)
 - [Creating Visual Elements](#creating-visual-elements)
-  - [Creating a Line](#creating-a-line)
+  - [Creating a Drawing Object](#creating-a-drawing-object)
   - [Creating a Highlight](#creating-a-highlight)
 - [Utility Functions](#utility-functions)
   - [Get Bounding Box](#get-bounding-box)
